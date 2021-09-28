@@ -35,13 +35,13 @@
               <listItem :product="p" />
             </div>
           </div>
-          <div
-            class="cart_empty d-flex align-items-center justify-content-center"
-            v-if="!cartHasItem"
-          >
-            <div class="empty_text">
-              На жаль, Ви ще нічого не додали до кошика
-            </div>
+        </div>
+        <div
+          class="cart_empty d-flex align-items-center justify-content-center"
+          v-if="!cartHasItem"
+        >
+          <div class="empty_text">
+            На жаль, Ви ще нічого не додали до кошика
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@ export default {
   .cart_empty {
     width: 542px;
     height: 54px;
-
+    margin-bottom: 400px;
     background: rgba(255, 168, 0, 0.21);
     border-radius: 6px;
     margin-top: 35px;

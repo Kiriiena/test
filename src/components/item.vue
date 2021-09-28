@@ -83,6 +83,9 @@ export default {
     border: none;
     margin-top: 15px;
     margin-bottom: 50px;
+    &:hover{
+      opacity: 0.85;
+    }
   }
 }
 </style>
